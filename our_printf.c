@@ -20,7 +20,8 @@ int string_print(char *str)
 
 int _printf(const char *format, ...)
 {
-	char c, *str;
+	char c;
+	char *str;
 	int counter = 0;
 	va_list arg_list;
 
