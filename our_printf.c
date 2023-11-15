@@ -54,7 +54,7 @@ int _printf(const char *format, ...)
 			else if (*format == 's')
 			{
 				str = va_arg(arg_list, char*);
-				counter += string_print(user.str);
+				counter += string_print(str);
 			}
 		}
 	format++;
